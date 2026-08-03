@@ -145,39 +145,301 @@ const CARD_DATA = {
     {
       question: "what is Net Value Assets (NAV)?",
       answer: "(Total Assets - Intangible Assets) / No.Ordinary Shares."
+    },
+    {
+      question: "what is cost of equity?",
+      answer: "the return required by shareholders for investing in the business."
+    },
+    {
+      question: "what are the two methods of calculating cost of equity?",
+      answer: "Dividend Valuation Model (DVM) and Capital Asset Pricing Model (CAPM)."
+    },
+    {
+      question: "what is the DVM formula?",
+      answer: "(D1 / P0) + G."
+    },
+    {
+      question: "what does D1 represent?",
+      answer: "next year's dividend."
+    },
+    {
+      question: "what does P0 represent?",
+      answer: "current share price."
+    },
+    {
+      question: "what does G represent?",
+      answer: "dividend growth rate."
+    },
+    {
+      question: "why is DVM simple?",
+      answer: "only requires dividend, share price, and growth rate."
+    },
+    {
+      question: "what is CAPM?",
+      answer: "a cost of equity model that includes risk."
+    },
+    {
+      question: "what happens to cost of equity when risk increases?",
+      answer: "required return increases."
+    },
+    {
+      question: "what is the CAPM formula?",
+      answer: "Rf + B(Rm - Rf)."
+    },
+    {
+      question: "what does Rf represent?",
+      answer: "risk-free rate of return."
+    },
+    {
+      question: "what does Rm represent?",
+      answer: "market return."
+    },
+    {
+      question: "what does beta represent?",
+      answer: "share sensitivity to market movements."
+    },
+    {
+      question: "what is equity risk premium?",
+      answer: "Rm - Rf."
+    },
+    {
+      question: "what are the three parts of CAPM?",
+      answer: "risk-free rate, market risk premium, and beta."
+    },
+    {
+      question: "what is beta calculated from?",
+      answer: "covariance divided by market variance."
+    },
+    {
+      question: "what is covariance?",
+      answer: "how the company return moves with market return."
+    },
+    {
+      question: "what is market variance?",
+      answer: "the volatility of market returns."
+    },
+    {
+      question: "how do you calculate deviation from mean?",
+      answer: "individual return - average return."
+    },
+    {
+      question: "how do you calculate average return?",
+      answer: "total returns divided by number of periods."
+    },
+    {
+      question: "what is cost of debt?",
+      answer: "the cost of borrowing money from external sources."
+    },
+    {
+      question: "why is debt cheaper than equity?",
+      answer: "lower risk and interest is tax deductible."
+    },
+    {
+      question: "what is after-tax cost of debt formula?",
+      answer: "I x (1-T)."
+    },
+    {
+      question: "what does I represent?",
+      answer: "interest rate."
+    },
+    {
+      question: "what does T represent?",
+      answer: "tax rate."
+    },
+    {
+      question: "what are the three types of debt finance?",
+      answer: "irredeemable debt, redeemable debt, and preference shares."
+    },
+    {
+      question: "what is irredeemable debt?",
+      answer: "debt that pays interest forever."
+    },
+    {
+      question: "what is irredeemable debt formula?",
+      answer: "I(1-T) / P0."
+    },
+    {
+      question: "what is redeemable debt?",
+      answer: "debt repaid at a future date."
+    },
+    {
+      question: "what does redeemable debt include?",
+      answer: "interest payments and redemption value."
+    },
+    {
+      question: "what method calculates redeemable debt?",
+      answer: "Internal Rate of Return (IRR)."
+    },
+    {
+      question: "what are preference shares?",
+      answer: "a finance source between debt and equity."
+    },
+    {
+      question: "are preference shares tax deductible?",
+      answer: "no."
+    },
+    {
+      question: "what is WACC?",
+      answer: "average return required by all finance providers."
+    },
+    {
+      question: "what does WACC include?",
+      answer: "equity and debt."
+    },
+    {
+      question: "what is the WACC formula?",
+      answer: "(E/V x Ke) + (D/V x Kd x (1-T))."
+    },
+    {
+      question: "what does E represent?",
+      answer: "market value of equity."
+    },
+    {
+      question: "what does D represent?",
+      answer: "market value of debt."
+    },
+    {
+      question: "what does V represent?",
+      answer: "total capital (E + D)."
     }
-  ],
 
-  "cost-of-equity": [
-
-    {
-      question: "",
-      answer: ""
-    },
-    {
-      question: "",
-      answer: ""
-    },
-    {
-      question: "",
-      answer: ""
-    },
   ],
 
   "cost-of-debt": [
 
     {
-      question: "",
-      answer: ""
+      question: "what is cost of debt?",
+      answer: "the rate companies pay to borrow external funds."
     },
     {
-      question: "",
-      answer: ""
+      question: "where does debt finance come from?",
+      answer: "banks, financial institutions, and other lenders."
     },
     {
-      question: "",
-      answer: ""
+      question: "why is debt cheaper than equity?",
+      answer: "debt holders have lower risk because they receive interest and principal payments."
     },
+    {
+      question: "why does debt have a tax advantage?",
+      answer: "interest payments are tax deductible."
+    },
+    {
+      question: "what does tax deductibility do to cost of debt?",
+      answer: "reduces the actual cost of borrowing."
+    },
+    {
+      question: "what is after-tax cost of debt?",
+      answer: "the cost of debt after considering the tax saving from interest."
+    },
+    {
+      question: "what is the after-tax cost of debt formula?",
+      answer: "I x (1-T)."
+    },
+    {
+      question: "what does I represent in cost of debt?",
+      answer: "interest rate."
+    },
+    {
+      question: "what does T represent in cost of debt?",
+      answer: "tax rate."
+    },
+    {
+      question: "what happens to cost of debt when tax increases?",
+      answer: "cost of debt decreases."
+    },
+    {
+      question: "what happens to cost of debt before tax?",
+      answer: "it is higher because tax relief is ignored."
+    },
+    {
+      question: "what are the three types of debt finance?",
+      answer: "irredeemable debt, redeemable debt, and preference shares."
+    },
+    {
+      question: "what is irredeemable debt?",
+      answer: "debt with no maturity date that pays interest forever."
+    },
+    {
+      question: "what is another name for irredeemable debt?",
+      answer: "perpetuity."
+    },
+    {
+      question: "what does irredeemable debt pay?",
+      answer: "a fixed interest payment each year."
+    },
+    {
+      question: "what is the irredeemable debt formula?",
+      answer: "I(1-T) / P0."
+    },
+    {
+      question: "what does P0 represent in irredeemable debt?",
+      answer: "current market price of debt."
+    },
+    {
+      question: "what does I represent in irredeemable debt?",
+      answer: "annual interest payment (coupon)."
+    },
+    {
+      question: "what does T represent in irredeemable debt?",
+      answer: "tax rate."
+    },
+    {
+      question: "why is tax included in irredeemable debt?",
+      answer: "because interest payments receive tax relief."
+    },
+    {
+      question: "what is redeemable debt?",
+      answer: "debt that is repaid at a future date."
+    },
+    {
+      question: "what does redeemable debt include?",
+      answer: "annual interest and redemption value."
+    },
+    {
+      question: "why is redeemable debt more complex?",
+      answer: "because it includes repayment of the original debt."
+    },
+    {
+      question: "what method is used for redeemable debt?",
+      answer: "Internal Rate of Return (IRR)."
+    },
+    {
+      question: "what does IRR find?",
+      answer: "the discount rate where present value equals market price."
+    },
+    {
+      question: "what two things affect redeemable debt cost?",
+      answer: "interest payments and gain/loss on redemption."
+    },
+    {
+      question: "what increases redeemable debt cost?",
+      answer: "redemption at a premium."
+    },
+    {
+      question: "what reduces redeemable debt cost?",
+      answer: "redemption below the original value."
+    },
+    {
+      question: "what are preference shares?",
+      answer: "a finance source between debt and equity."
+    },
+    {
+      question: "why are preference shares not pure debt?",
+      answer: "they do not have a repayment obligation."
+    },
+    {
+      question: "why are preference shares not pure equity?",
+      answer: "they usually pay a fixed return."
+    },
+    {
+      question: "are preference share dividends tax deductible?",
+      answer: "no."
+    },
+    {
+      question: "why are preference shares different from debt?",
+      answer: "tax is not deducted from the cost calculation."
+    }
+
   ],
 
   "theories-of-capital-structure": [
