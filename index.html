@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Spaced Repetition - Advanced Financial Management</title>
+</head>
+
+<body>
+
+  <main>
+
+    <section id="homeView">
+      <div class="homeView-title">
+        <h2>Advanced Financial Management</h2>
+        <p>Spaced Repetition for Mastery!</p>
+      </div>
+
+
+      <div class="topic-list">
+        <button data-topic="all">All Cards</button>
+
+        <div class="divider"></div>
+
+        <button data-topic="corporate-objectives">Corporate Objectives</button>
+        <button data-topic="shareholder-wealth-and-company-valuation">Shareholder Wealth and Company Valuation</button>
+        <button data-topic="cost-of-equity">Cost of Equity</button>
+        <button data-topic="cost-of-debt">Cost of Debt</button>
+        <button data-topic="theories-of-capital-structure">Theories of Capital Structure</button>
+        <button data-topic="financing-short-and-long-term">Financing: Short and Long-Term</button>
+        <button data-topic="capital-investment">Capital Investment</button>
+        <button data-topic="managing-foreign-currency-risk">Managing Foreign Currency Risk</button>
+        <button data-topic="dividend-policy">Dividend Policy</button>
+      </div>
+    </section>
+
+    <!-- CARD SESSION (REUSED FOR ALL TOPICS) -->
+    <section id="sessionView" hidden>
+
+      <!-- HEADER -->
+      <header class="session-header">
+        <div class="session-header-left">
+          <button id="backButton">← Home</button>
+        </div>
+        <div class="session-header-right">
+          <h2 id="topicTitle"></h2>
+        </div>
+      </header>
+
+      <!-- PROGRESS -->
+      <div class="progress-container">
+        <span id="progressText"></span>
+        <div class="progress-bar">
+          <div id="progressFill"></div>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <div class="flashcard" id="flashcard">
+        <div class="flashcard-inner">
+
+          <!-- Front -->
+          <div class="flashcard-front">
+            <div class="question" id="questionText"></div>
+            <p class="tap-hint">Tap to reveal answer</p>
+          </div>
+
+          <!-- Back -->
+          <div class="flashcard-back">
+            <div class="answer-text" id="answerText"></div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FEEDBACK -->
+      <div class="feedback" id="feedback">
+        <button id="nextButton">Next</button>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
