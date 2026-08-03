@@ -107,17 +107,45 @@ const CARD_DATA = {
       answer: "(Dividend Paid x (1 + Growth)) / (Required Return - Growth)"
     },
     {
-      question: "",
-      answer: ""
+      question: "what are the three ways to forecast dividend growth?",
+      answer: "historic, retention, and Earnings."
     },
     {
-      question: "",
-      answer: ""
+      question: "what is historic?",
+      answer: "if dividends rose 10p to 14p over 5-years = ((10/14)^(1/5)) = 6.98%"
     },
     {
-      question: "",
-      answer: ""
+      question: "what is retention?",
+      answer: "if a firm retains 40% and earns 12% on equity = (0.4 x 0.12) = 4.8%"
     },
+    {
+      question: "what is earnings?",
+      answer: "if EPS has risen 6%, we assume dividend growth will be the same."
+    },
+    {
+      question: "what are the two P/E calculations?",
+      answer: "Crude and Sophisticated."
+    },
+    {
+      question: "what is crude?",
+      answer: "P/E risen 12% and EPS is 20p = (12 x 0.2) = £2.40 x no.ordinary shares."
+    },
+    {
+      question: "what is sophisticated?",
+      answer: "retains 10%, require rate of return of 11%, growth at 5%, and EPS 10p = ((1-0.1)/(0.11 - 0.5)) x 0.10 = £1.50"
+    },
+    {
+      question: "what is cashflow?",
+      answer: "look at excel."
+    },
+    {
+      question: "how do we increase value via assets?",
+      answer: "Net Value Assets (NAV)."
+    },
+    {
+      question: "what is Net Value Assets (NAV)?",
+      answer: "(Total Assets - Intangible Assets) / No.Ordinary Shares."
+    }
   ],
 
   "cost-of-equity": [
