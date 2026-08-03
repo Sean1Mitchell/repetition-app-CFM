@@ -53,8 +53,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/repetition-app-corporate-financial-management/index.html",
-  "scope": "/repetition-app-corporate-financial-management/index.html",
+  "start_url": "/repetition-app-CFM/index.html",
+  "scope": "/repetition-app-CFM/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000"
